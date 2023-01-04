@@ -1,7 +1,7 @@
 # XTIDE-OLM
 A Compact Flash to ISA bus adapter with XTIDE BIOS support
 
-Based on: Glitch Works XT-IDE: https://github.com/glitchwrks/xt_ide
+Based on Glitch Works XT-IDE: https://github.com/glitchwrks/xt_ide
 
 
 So far tested only with SST39F010 Flash(writen with "xtidecfg.com") and 27C512 burned with TL866 programmer.
