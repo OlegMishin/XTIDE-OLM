@@ -7,6 +7,8 @@ Based on Glitch Works XT-IDE: https://github.com/glitchwrks/xt_ide
 So far tested only with SST39F010 Flash(writen with "xtidecfg.com") and 27C512 burned with TL866 programmer.
 Works on PC-AT (286, 386, 486 CPU). Not tested with PC-XT as I have no one.
 
+Designed for Keystone 9202 bracket. The bracket has no window for CF card, so it must be drilled manually.
+
 # XTIDE BIOS:
 Can be obtained here: https://www.xtideuniversalbios.org/
 
