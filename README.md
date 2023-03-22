@@ -4,11 +4,14 @@ A Compact Flash to ISA bus adapter with XTIDE BIOS support
 Based on Glitch Works XT-IDE: https://github.com/glitchwrks/xt_ide
 
 
-So far tested only with SST39F010 Flash(writen with "xtidecfg.com") and 27C512 burned with TL866 programmer.
+So far tested with SST39F010 and AT28C64 Flash(writen with "xtidecfg.com") and 27C512 burned with TL866 programmer.
 Works on PC-XT and PC-AT. Tested with 8088, 286, 386 and 486 computers. 
 
 Designed for Keystone 9202 bracket. The bracket has no window for CF card, so it must be drilled manually.
 Also the bracket can be 3D-printed. The 3D model is in "XTIDE_OLM-bracket.STL" file.
+
+For 32K BIOS ROM R14 and R15 need to be be removed and mounted for 8K ROM (e.g. 2864).
+There is no issue if R14 and R15 unmounted with 8K ROM, but in this case BIOS ROM window is 32K and configured by SW1.1 and SW1.2 only.
 
 # XTIDE BIOS:
 Can be obtained here: https://www.xtideuniversalbios.org/
